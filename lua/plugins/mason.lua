@@ -8,6 +8,10 @@ return {
                     package_pending = "➜",
                     package_uninstalled = "✗"
                 }
+            },
+            ensure_installed = {
+                "clangd",
+                "gopls"
             }
         }
     }
